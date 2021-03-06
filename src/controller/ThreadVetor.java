@@ -29,8 +29,7 @@ public class ThreadVetor extends Thread {
 
 		double fim = System.nanoTime();
 		double dur = (fim - inicio) / Math.pow(10, 9);
-
-		System.out.printf("%d: %.9f s%n", num, dur);
+		System.out.println(num + ": " + dur);
 	}
 
 	public void impar() {
@@ -42,8 +41,7 @@ public class ThreadVetor extends Thread {
 
 		double fim = System.nanoTime();
 		double dur = (fim - inicio) / Math.pow(10, 9);
-
-		System.out.printf("%d: %.9f s%n", num, dur);
+		System.out.println(num + ": " + dur);
 	}
 
 }
